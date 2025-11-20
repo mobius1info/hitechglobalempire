@@ -9658,6 +9658,20 @@ html[data-bs-theme=dark] .partner--gradient::after {
   justify-content: center!important;
 }
 
+@media (max-width: 768px) {
+  .a-logo{
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .a-logo{
+    width: 150px !important;
+  }
+}
+
+
+
 .burger-btns {
   color: #00D094!important;
   display: none;
