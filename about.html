@@ -11,10 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
 
-    <link
-      rel="shortcut icon"
-      href="./assets/images/favicon.ico"
-      type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/aos.css" />
@@ -113,16 +110,43 @@
 
     <!-- main css for template -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1186027276291884');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1186027276291884&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
 
   <body>
     <!-- ===============>> light&dark switch start here <<================= -->
     <div class="lightdark-switch d-none">
       <span class="dark-btn d-none" id="btnSwitch"
-        ><img
-          src="./assets/images/icon/moon.svg"
-          alt="light-dark-switchbtn"
-          class="swtich-icon"
+        ><img src="./assets/images/icon/moon.svg" alt="light-dark-switchbtn" class="swtich-icon"
       /></span>
     </div>
     <!-- ===============>> light&dark switch start here <<================= -->
@@ -212,17 +236,10 @@
                 </li>
 
                 <li>
-                  <a href="https://personal.hitechglobalempire.com/auth/login" class="burger-btns" 
-                    >Login</a
-                  >
+                  <a href="https://personal.hitechglobalempire.com/auth/login" class="burger-btns">Login</a>
                 </li>
                 <li>
-                  <a
-                    href="https://personal.hitechglobalempire.com/auth/registration"
-                    class="burger-btns"
-                    
-                    >Register</a
-                  >
+                  <a href="https://personal.hitechglobalempire.com/auth/registration" class="burger-btns">Register</a>
                 </li>
               </ul>
             </div>
@@ -231,14 +248,12 @@
                 <div class="header-btn">
                   <a
                     href="https://personal.hitechglobalempire.com/auth/login"
-                    class="trk-btn trk-btn--border trk-btn--primary"
-                    >
+                    class="trk-btn trk-btn--border trk-btn--primary">
                     <span>Login</span>
                   </a>
                   <a
                     href="https://personal.hitechglobalempire.com/auth/registration"
-                    class="trk-btn trk-btn--border trk-btn--primary"
-                    >
+                    class="trk-btn trk-btn--border trk-btn--primary">
                     <span>Register</span>
                   </a>
                 </div>
@@ -417,7 +432,6 @@
                   <div class="cta-form__inner d-sm-flex align-items-center">
                     <a
                       href="https://personal.hitechglobalempire.com/auth/registration"
-                      
                       class="trk-btn trk-btn--large trk-btn--secondary2"
                       type="submit"
                       >Demo account</a
@@ -507,7 +521,7 @@
                   <div class="contact__item" data-aos="fade-right" data-aos-duration="1000">
                     <div class="contact__item-inner">
                       <div class="contact__item-thumb">
-                        <img src="./../assets/images/contact/1.svg" alt="contact-icon">
+                        <img src="./../assets/images/contact/1.svg" alt="contact-icon" />
                       </div>
                       <div class="contact__item-content">
                         <p><a href="https://wa.me/14459008890" target="_blank">+ 1 445 900 8890</a></p>
@@ -517,7 +531,7 @@
                   <div class="contact__item" data-aos="fade-right" data-aos-duration="1100">
                     <div class="contact__item-inner">
                       <div class="contact__item-thumb">
-                        <img src="./../assets/images/contact/2.svg" alt="contact-icon">
+                        <img src="./../assets/images/contact/2.svg" alt="contact-icon" />
                       </div>
                       <div class="contact__item-content">
                         <p><a href="https://t.me/AlexKruglov0101" target="_blank">@AlexKruglov0101</a></p>
